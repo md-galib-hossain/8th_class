@@ -1,0 +1,43 @@
+
+
+
+.container{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	width:20%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+	margin-top: 5px;
+}
+.menu{
+	width:75%;
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	padding: 10px 20px;
+	display: inline-block;
+	font-family: sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+	color: #6F6F6F;
+	text-decoration: none;
+}
+.menu ul li a:last-child{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	color: #BC233F;
+}
+
